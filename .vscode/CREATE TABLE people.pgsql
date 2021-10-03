@@ -1,0 +1,3 @@
+CREATE TABLE people 
+(pID SERIAL PRIMARY KEY,
+pFirstName varchar(50) NOT NULL);

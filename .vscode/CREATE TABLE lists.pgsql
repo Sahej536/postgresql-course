@@ -1,0 +1,4 @@
+CREATE TABLE lists
+( lID SERIAL PRIMARY KEY,
+  pID INT REFERENCES people NOT NULL,
+  lname varchar(50) NOT NULL);
